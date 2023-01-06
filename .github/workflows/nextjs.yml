@@ -21,3 +21,5 @@ jobs:
           github_token: ${{ secrets.PAGES_DEPLOYMENT }}
           publish_dir: ./out
           cname: tmotswagole.github.io
+          publish_branch: gh-pages
+          source: gh-pages
