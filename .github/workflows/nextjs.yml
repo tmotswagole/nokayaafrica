@@ -22,4 +22,9 @@ jobs:
           publish_dir: ./out
           cname: tmotswagole.github.io
           publish_branch: gh-pages
-          source: gh-pages
+          allow_empty_commit: false
+          keep_files: false
+          force_orphan: false
+          enable_jekyll: false
+          disable_nojekyll: false
+          exclude_assets: .github
