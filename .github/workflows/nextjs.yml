@@ -14,8 +14,8 @@ jobs:
         with:
           node-version: 12.0.0
       - run: npm install
-      - run: next build && next export
-      - run: next export
+      - run: $(pwd)/node_modules/.bin/next build && $(pwd)/node_modules/.bin/next export
+      - run: $(pwd)/node_modules/.bin/next export
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.PAGES_DEPLOYMENT }}
