@@ -22,7 +22,7 @@ const ContactModal = ({ handleClose }) => {
   return (
     <Backdrop onClick={handleClose}>
       <motion.div
-        className='w-clamp-50-700-90 h-min-50-300 p-2 rounded-lg flex flex-col items-center justify-center'
+        className='w-clamp-50-700-90 h-min-50-300 p-2 rounded-lg flex items-center justify-center'
         variants={fadeIn}
         initial='hidden'
         animate='visible'

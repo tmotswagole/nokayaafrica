@@ -14,7 +14,7 @@ const Hero = () => (
       variants={staggerContainer}
       initial='hidden'
       whileInView='show'
-      viewpoint={{ once: false, amount: 0.25 }}
+      viewpoint={{ once: true, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div className='flex justify-center items-center flex-col relative z-10'>

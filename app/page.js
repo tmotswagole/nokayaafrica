@@ -12,26 +12,26 @@ import {
 } from "../sections";
 
 const Home = () => (
-  <div className='bg-primary-black overflow-hidden overflow-y-scroll h-screen scroll-snap-type-y scroll-snap-align-start'>
+  <div className='bg-primary-black overflow-hidden overflow-y-scroll h-screen'>
     <NokaYaAfricaSEO />
     <Navbar />
-    <Hero className='h-screen scroll-snap-stop' />
+    <Hero />
     <div className='relative'>
-      <About className='h-screen scroll-snap-stop' />
+      <About />
       <div className='gradient-03 z-0' />
-      <Explore className='h-screen scroll-snap-stop' />
+      <Explore />
     </div>
     <div className='relative'>
-      <WhyUs className='h-screen scroll-snap-stop' />
+      <WhyUs />
       <div className='gradient-04 z-0' />
-      <Features className='h-screen scroll-snap-stop' />
+      <Features />
     </div>
-    {/* <World className='h-screen scroll-snap-stop' /> */}
-    <MissionStatement className='h-screen scroll-snap-stop' />
+    {/* <World /> */}
+    <MissionStatement />
     <div className='relative'>
-      <Services className='h-screen scroll-snap-stop' />
+      <Services />
       <div className='gradient-03 z-0' />
-      <Feedback className='h-screen scroll-snap-stop' />
+      <Feedback />
     </div>
     <Footer />
   </div>
