@@ -84,12 +84,22 @@ export const socials = [
   {
     name: "instagram",
     url: "/instagram.svg",
-    link: "https://www.instagram.com/rethabiso/",
+    link: "https://www.instagram.com/wearethabiso/",
   },
   {
     name: "facebook",
     url: "/facebook.svg",
     link: "https://www.facebook.com/profile.php?id=100088387955886",
+  },
+  {
+    name: "twitter",
+    url: "/twitter.png",
+    link: "https://twitter.com/WeAreThabiso",
+  },
+  {
+    name: "tiktok",
+    url: "/tiktok.png",
+    link: "https://www.tiktok.com/@wearethabiso",
   },
 ];
 
